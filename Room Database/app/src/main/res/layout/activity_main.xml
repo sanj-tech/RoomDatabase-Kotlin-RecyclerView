@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DisplayRoomData">
+<EditText
+   android:id="@+id/edName"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:hint="Name"
+    android:textSize="20dp"
+    android:layout_marginTop="50dp"
+    android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/edAddress"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Address"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btSubmit"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="160dp"
+        android:text="Insert"
+        android:textAllCaps="true">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btUpdate"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="update"
+        android:textAllCaps="true">
+
+    </Button>
+
+
+<TextView
+    android:id="@+id/txtName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+
+
+
+
+</LinearLayout>
